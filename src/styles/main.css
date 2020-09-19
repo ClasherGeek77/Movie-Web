@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px) {}
+
+.feather {
+    width: 24px;
+    height: 24px;
+    stroke: white;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: no;
+}
+
+* {
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}

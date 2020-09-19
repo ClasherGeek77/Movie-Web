@@ -1,0 +1,41 @@
+{
+  "name": "web-movie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "favicons": "app-ico -c ./src/logo.svg",
+    "build": "webpack --config webpack.prod.js",
+    "start-dev": "webpack-dev-server --config webpack.dev.js --open"
+  },
+  "author": "teddylioner <teddylioner@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "compression-webpack-plugin": "^6.0.2",
+    "css-loader": "^3.4.1",
+    "eslint": "^7.9.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.1.3",
+    "terser-webpack-plugin": "^4.2.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "app-ico": "^0.3.1",
+    "bootstrap": "^4.4.1",
+    "feather-icons": "^4.28.0",
+    "jquery": "^3.5.1",
+    "regenerator-runtime": "^0.13.3"
+  }
+}
